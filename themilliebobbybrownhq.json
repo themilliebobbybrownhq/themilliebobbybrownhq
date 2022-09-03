@@ -37,7 +37,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Set up Node.js
+    - name themilliebobbybrownhq.js["bozkurt.hazarr", themilliebobbybrownhq","cakircan_cakir","neostck"]
       uses: actions/setup-node@v3
       with:
         node-version: ${{ env.NODE_VERSION }}
@@ -52,7 +52,7 @@ jobs:
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v3
       with:
-        name: node-app
+        name: themilliebobbybrownhq 
         path: .
 
   deploy:
